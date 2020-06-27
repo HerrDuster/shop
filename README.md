@@ -1,6 +1,6 @@
 # IShop
 
-Учебный проект для курса http://devstudy.net/course/jee-ishop
+Учебный проект
 
 ## Инструкция по запуску проекта в docker контейнерах
 
@@ -42,7 +42,7 @@ login
 ###### 1. Клонировать github репозиторий в текущую папку, используя docker образ devstudy/git:
 * Windows:
 ~~~~
-docker run -it --rm -v "%cd%":/opt/src/ -w /opt/src devstudy/git git clone "https://github.com/devstudy-net/ishop-webapp"
+docker run -it --rm -v "%cd%":/opt/src/ -w /opt/src devstudy/git git clone "https://github.com/HerrDuster/shop.git"
 ~~~~
 * macOS:
 ~~~~

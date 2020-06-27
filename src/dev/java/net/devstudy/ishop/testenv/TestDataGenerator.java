@@ -281,12 +281,6 @@ public class TestDataGenerator {
 		}
 	}
 
-	/**
-	 * 
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
 	private static class ProductDescriptionGenerator {
 		private final String[] patterns;
 		private final String[] options;
@@ -377,12 +371,7 @@ public class TestDataGenerator {
 
 	private static final Random RANDOM = new Random();
 
-	/**
-	 * 
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+
 	private static class Category implements Comparable<Category> {
 		final String name;
 		final File imageFile;
@@ -427,12 +416,7 @@ public class TestDataGenerator {
 		}
 	}
 
-	/**
-	 * 
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+
 	private static class Producer {
 		final String name;
 		final int productCount;
@@ -448,12 +432,7 @@ public class TestDataGenerator {
 		}
 	}
 
-	/**
-	 * 
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+
 	private static class Product {
 		final int idCategory;
 		final String category;

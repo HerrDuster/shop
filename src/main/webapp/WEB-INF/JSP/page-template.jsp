@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>&lt;/&gt;DevStudy.net - IShop layout</title>
+<title>Shop layout</title>
 <link href="/static/css/bootstrap.css" rel="stylesheet">
 <link href="/static/css/bootstrap-theme.css" rel="stylesheet">
 <link href="/static/css/font-awesome.css" rel="stylesheet">

@@ -1,7 +1,4 @@
 #
-# @author devstudy
-# @see http://devstudy.net
-# @see https://docs.docker.com/compose/compose-file/
 #
 # docker-compose build
 # docker-compose up

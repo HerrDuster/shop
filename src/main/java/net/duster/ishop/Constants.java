@@ -23,11 +23,7 @@ public final class Constants {
 	
 	public static final String CURRENT_REQUEST_URL = "CURRENT_REQUEST_URL";
 	
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+
 	public enum Cookie {
 		//1 year ttl
 		SHOPPING_CART("iSCC", 60 * 60 * 24 * 365);

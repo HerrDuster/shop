@@ -22,12 +22,7 @@ public class TrimResponseFilter extends AbstractFilter {
 		chain.doFilter(req, response);
 		response.complete();
 	}
-	
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+
 	private static class TrimResponse extends HttpServletResponseWrapper {
 		private TrimProxyWriter trimProxyWriter;
 		private TrimResponse(HttpServletResponse response) throws IOException {
@@ -63,11 +58,7 @@ public class TrimResponseFilter extends AbstractFilter {
 		}
 	}
 	
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+
 	private static class TrimProxyWriter extends Writer {
 		private final Writer wr;
 		private int length;
