@@ -22,11 +22,7 @@ import java.util.Random;
 import java.util.Set;
 import java.util.UUID;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class TestDataGenerator {
 	private static final String JDBC_URL = "jdbc:postgresql://localhost/ishop";
 	private static final String JDBC_USERNAME = "ishop";

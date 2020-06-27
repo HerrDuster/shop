@@ -5,7 +5,7 @@
 	<shortname>tags</shortname>
 	<tag>
 		<name>urlEncode</name>
-		<tag-class>net.devstudy.ishop.tag.URLEncodeTag</tag-class>
+		<tag-class>net.duster.ishop.tag.URLEncodeTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<name>var</name>
